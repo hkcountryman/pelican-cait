@@ -103,6 +103,8 @@ body {
     color: #8e927e; }
   .entry-header h1 {
     margin: 0.5em 0; }
+  .entry-header aside {
+    color: #8e927e; }
 
 .post-content a {
   color: #38c5c5; }

@@ -18,6 +18,8 @@
                         <time class="post-time" datetime="{{ article.date.isoformat() }}" pubdate>
                             {{ article.locale_date }}
                         </time>
+                        <p style="color: #8e927e; display: inline">in</p>
+                        <a href="{{ SITEURL }}/{{ article.category.url }}" style="color: #38c5c5">{{ article.category }}</a>
                         <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"><h1>{{ article.title }}</h1></a>
                     </header>
                     <section class="post-content">
