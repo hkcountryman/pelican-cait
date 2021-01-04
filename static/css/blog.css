@@ -43,7 +43,9 @@ body {
 }
 
 #contact-roll h2 {
-    margin-left: 2%;
+  font-size: 1.5em;
+  margin-bottom: 1%;  
+  margin-left: 2%;
 }
 
 #contact-roll a {
@@ -93,6 +95,15 @@ body {
   #logo-links a {
     padding: 2%;
   }
+
+  #attribution {
+    font-style: italic;
+    font-size: .75em;
+    padding-left: 2%;
+    padding-bottom: 2%; }
+    #attribution a {
+      color: #38c5c5;
+    }
 
 #post-list {
   list-style: none; }
@@ -178,10 +189,10 @@ body {
       display: inline-block; }
 
   #contact-roll {
-    margin-top: 2%;
-  }
+    margin-top: 2%; }
 
   #logo-links {
+    margin-top: 0;
     padding-left: 1%;
     padding-bottom: 2%; }
     #logo-links a {
@@ -207,12 +218,20 @@ body {
   #nav-links {
     font-size: 1.1em; }
 
+  #attribution {
+    font-size: .6em;
+  }
+
   #site-desc {
     font-size: 1em; }
 
   #site-title h1 {
-    font-size: 1.3em;
-    margin: 0.1em 0px; }
+    margin-left: 2%;
+    font-size: 1.25em; }
+
+  #contact-roll h2 {
+    font-size: 1.25em;
+  }
 
   #site-info {
     font-size: 0.6em; } }
