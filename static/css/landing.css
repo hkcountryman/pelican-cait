@@ -1,7 +1,7 @@
 body {
   /* background-color: $white; */
   background: url("../img/stressed_linen/stressed_linen.png") repeat;
-  border-top: 6px solid #38c5c5; }
+  border-top: 6px solid #3977d4; }
 
 #content-box {
   padding: 12px;
@@ -34,7 +34,7 @@ body {
     color: #eeeeee;
     text-decoration: none; }
   .centered-nav a:hover {
-    color: #38c5c5;
+    color: #3977d4;
     text-shadow: 0 0 12px #8e927e; }
 
 #nav-links {
